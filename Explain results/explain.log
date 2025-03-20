@@ -1,30 +1,30 @@
-sql: 1, min: 84.632, avg: 95.3158, max: 119.850
-sql: 2, min: 250.255, avg: 285.894, max: 379.456
-sql: 3, min: 5.361, avg: 8.0352, max: 16.277
-sql: 4, min: 35.009, avg: 43.4986, max: 50.804
-sql: 5, min: 326.480, avg: 341.539, max: 353.564
+sql: 1, min: 57.583, avg: 59.1858, max: 60.288
+sql: 2, min: 141.510, avg: 157.92, max: 170.367
+sql: 3, min: 3.314, avg: 4.2696, max: 6.457
+sql: 4, min: 22.929, avg: 24.0026, max: 25.408
+sql: 5, min: 271.775, avg: 292.68, max: 323.010
 
 
 
 
 Result of explain analyze after indexes
 
-sql: 1, min: 90.818, avg: 103.108, max: 129.813
-sql: 2, min: 248.493, avg: 271.202, max: 289.312
-sql: 3, min: 5.911, avg: 7.4186, max: 9.760
-sql: 4, min: 39.232, avg: 46.018, max: 58.898
-sql: 5, min: 357.646, avg: 404.308, max: 488.669
+sql: 1, min: 46.172, avg: 48.7752, max: 51.196
+sql: 2, min: 115.015, avg: 122.416, max: 137.306
+sql: 3, min: 2.907, avg: 4.2436, max: 6.495
+sql: 4, min: 19.294, avg: 21.868, max: 24.924
+sql: 5, min: 235.942, avg: 243.559, max: 252.505
 
 
 
 
 Result of explain analyze after partitions
 
-sql: 1, min: 78.999, avg: 83.7504, max: 86.981
-sql: 2, min: 246.567, avg: 261.344, max: 285.890
-sql: 3, min: 5.871, avg: 8.586, max: 14.481
-sql: 4, min: 35.884, avg: 59.4824, max: 93.420
-sql: 5, min: 384.288, avg: 464.306, max: 615.953
+sql: 1, min: 45.443, avg: 51.4658, max: 68.487
+sql: 2, min: 134.729, avg: 136.449, max: 138.251
+sql: 3, min: 2.686, avg: 2.878, max: 3.174
+sql: 4, min: 20.311, avg: 22.6626, max: 26.116
+sql: 5, min: 258.435, avg: 262.068, max: 264.116
 
 
 

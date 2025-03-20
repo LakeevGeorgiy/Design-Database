@@ -1,7 +1,7 @@
 #!/bin/bash
 
 export PGPASSWORD='postgres'
-source_path="/mnt/c/labwork/Design database/Second step/"
+source_path="$PWD/.."
 
 number="$(ls "$source_path/Explain results" | wc -l)"
 let "number=$number+1"

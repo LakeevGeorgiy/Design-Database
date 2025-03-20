@@ -1,7 +1,7 @@
 #!/bin/bash
 
 export PGPASSWORD='postgres'
-source_path="/mnt/c/labwork/Design database/Second step"
+source_path="$PWD/.."
 result_file_name="$source_path/Explain results/explain.log"
 service_path="$source_path/Queries/service.sh"
 env_file="$source_path/.env"
