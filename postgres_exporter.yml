@@ -1,0 +1,22 @@
+scrape_configs:
+  - job_name: 'postgres'
+    static_configs:
+      - targets:
+        - server1:5000
+    metrics_path: /probe
+    params:
+      auth_modules: 
+        foo1:
+          type: userpass
+          userpass:
+            username: postgres
+            password: postgres
+          options:
+            sslmod: disable
+    relabel_configs:
+      - source_labels: [__address__]
+        target_label: __param_target
+      - source_labels: [__param_target]
+        target_label: instance
+      - target_label: __address__
+        replacement: 127.0.0.1:9116  # The postgres exporter's real hostname:port.
